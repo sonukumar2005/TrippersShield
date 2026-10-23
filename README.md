@@ -1,4 +1,4 @@
-# Trippers Shield
+\# Trippers Shield
 
 A Laravel REST API for travel insurance policy requests. An agent submits a request for a customer, the system calculates the premium, sends it to a **mock insurer**, and issues a policy. It is built to handle duplicate requests and duplicate insurer callbacks safely.
 
@@ -220,6 +220,23 @@ No real insurer is called. `MockInsurerService` simulates one:
 - No authentication is implemented; `agent_id` is passed in the request body.
 - Currency is USD.
 - The insurer is simulated and responds synchronously.
+
+## AI Assistance Disclosure
+
+I come from an **AI/ML background** and have no prior experience with PHP or Laravel. To complete this assignment, I used the following AI coding assistants:
+
+- **ChatGPT**
+- **Claude**
+- **Antigravity**
+
+They helped me with:
+
+- Understanding Laravel concepts (routing, controllers, form requests, Eloquent models, migrations, service classes)
+- Generating and structuring the code in this repository
+- Writing the tests and this README
+- Fixing Git and setup errors
+
+I used these tools openly as learning and coding aids. I went through the project to understand how the flow works: request validation, premium calculation, mock insurer submission, duplicate handling, and the status lifecycle.
 
 ## Author
 
